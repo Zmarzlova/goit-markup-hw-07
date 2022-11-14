@@ -3,11 +3,11 @@
     border-bottom: 1px solid #ececec;
   }
   
-  .all {
+  .container__header {
     display: flex;
   }
   
-  .container-connect {
+  .container__connect {
     margin-left: auto;
   }
   
@@ -15,7 +15,7 @@
     display: flex;
     align-items: center;
   }
-  .header-nav-list {
+  .header-nav__list {
     display: flex;
     gap: 50px;
   }
@@ -45,7 +45,7 @@
     color: #000000;
   }
   
-  .header-nav-link {
+  .header-nav__link {
     color: var(--title-text-color);
     font-weight: 500;
     line-height: 1.14;
@@ -58,12 +58,12 @@
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     &:hover,
     &:focus,
-    .header-nav-link.current {
+    .header-nav__link.current {
     color: var(--accent-color);
   }
 }
   
-  .header-nav-item {
+  .header-nav__item {
     position: relative;
   }
   
